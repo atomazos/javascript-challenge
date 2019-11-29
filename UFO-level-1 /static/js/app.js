@@ -55,31 +55,32 @@ arr.forEach(function(ufoReport) {
 
   });
 }
+// Step 6. Use d3 to filter data
 populateTable(data)
-// var enterADate = data
-var enterDate = data
+
+var enterData = data
 d3.select("#filter-btn").on("click", getData);
 
 function getData(){
 
   // Select the input element and get the raw HTML node
-  var inputElement = d3.select("#datetime-form-input");
+  var inputDateElement = d3.select("#datetime-form-input");
 
   // Get the value property of the input element
-  var inputValue = inputElement.property("value");
-
+  var inputValue = inputDateElement.property("value");
 // console.log(inputValue);
-// console.log(enterDate);
+// console.log(enterData);
   if (inputValue ===""){
     populateTable(data)
   } else{
-    var filteredData = enterDate.filter(enterDate=> enterDate.datetime === inputValue);
-  
-  populateTable(filteredData)
+    var filteredData = enterData.filter(enterData=> enterData.datetime === inputValue);
+    
+  populateTable(filteredData);
   }
   
 
 console.log(filteredData);
+
 
 
 
