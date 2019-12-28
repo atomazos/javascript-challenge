@@ -1,6 +1,6 @@
 # javascript-challenge
 
-Using a decade-old dataset of UFO sightings, I created a basic HTML web page with Javascript code that elegantly appends a table to the web page and subsequently adds new rows of data for each UFO sighting.
+Using a decade-old dataset of UFO sightings, I created an elegant HTML web page with Javascript code that elegantly appends a table to the web page and subsequently adds new rows of data for each UFO sighting.
 
 The JavaScript code also has multiple filters that allows the user to search for UFO sightings using the following criteria based on the table columns:
 
