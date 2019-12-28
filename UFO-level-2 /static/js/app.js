@@ -46,6 +46,7 @@ populateTable(data)
 // the arr is the array in data.js file (i.e., data in data.js file), the field is the seven labels
 //(i.e, datetime, city, etc) and value are the values of the labels (e.g, 1/1/2010, benton, etc.)
 // helper function
+
 function filterTable(arr,field,value){
   return arr.filter(item=>item[field] === value);
 }

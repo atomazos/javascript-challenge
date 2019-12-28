@@ -1,11 +1,13 @@
-# JavaScript Homework - JavaScript and DOM Manipulation
+# javascript-challenge
 
-## Background
+Using a decade-old dataset of UFO sightings, I created a basic HTML web page with Javascript code that elegantly appends a table to the web page and subsequently adds new rows of data for each UFO sighting.
 
-WAKE UP SHEEPLE! The extra-terrestrial menace has come to Earth and we here at ALIENS-R-REAL have collected all of the eye-witness reports we could to prove it! All we need to do now is put this information online for the world to see and then the matter will finally be put to rest.
-There is just one tiny problem though... our collection is too large to search through manually. Even our most dedicated followers are complaining that they are having trouble locating specific reports in this mess.
-That's why we are hiring you. We need you to write code that will create a table dynamically based upon a dataset we provide. We also need to allow our users to filter the table data for specific values. There's a catch though... we only use pure JavaScript, HTML, and CSS, and D3.js on our web pages. They are the only coding languages which can be trusted.
-You can handle this... right? The planet Earth needs to know what we have found!
+The JavaScript code also has multiple filters that allows the user to search for UFO sightings using the following criteria based on the table columns:
 
+* date/time
+* city
+* state
+* country
+* shape
 ![UFO_landing_page](https://user-images.githubusercontent.com/54033512/69886859-b2fe3a80-12a9-11ea-9eb4-21939c0ad01f.png)
 ![UFO_filter-example](https://user-images.githubusercontent.com/54033512/69886994-69fab600-12aa-11ea-89e9-941e06d02913.png)
